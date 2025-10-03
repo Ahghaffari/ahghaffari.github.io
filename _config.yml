@@ -9,11 +9,48 @@
 # --- Required options --- #
 ############################
 
-# Name of website
-title: Amirhossein Ghaffari
+# Site basics
+title: "Amirhossein Ghaffari"
+description: "PhD researcher — Graph Neural Networks • Temporal Graphs • ML"
+url: "https://ahghaffari.github.io"   # change this later once you push
+baseurl: ""                                  # keep empty for user site
 
-# Your name to show in the footer
-author: Some Person
+# Author card
+author:
+  name: "Amirhossein Ghaffari"
+  avatar: "/assets/img/profile.jpg"
+  bio: "Doctoral Researcher, University of Oulu. AI, Graph Neural Networks"
+  email: "amirhossein.ghaffari@oulu.fi"
+  linkedin: "https://www.linkedin.com/in/amirhosseinghaffari"
+  scholar: "https://scholar.google.com/citations?user=N6ROMtIAAAAJ"
+  location: "Oulu, Finland"
+
+# Social icons (shown in the header/footer depending on theme config)
+social-network-links:
+  email: "amirhossein.ghaffari@oulu.fi"
+  linkedin: amirhosseinghaffari
+  github: ahghaffari
+  # Beautiful Jekyll doesn't have 'scholar' icon by default; add it to menu below
+
+# Header navigation (pages must exist at repo root)
+header_pages:
+  - index.md
+  - now.md
+  - about.md
+  - teaching.md
+  - awards.md
+  - contact.md
+  - scholar.md
+
+# Theme options
+navbar-links:
+  Google Scholar: "scholar"          # points to scholar.md page
+  LinkedIn: "https://www.linkedin.com/in/amirhosseinghaffari"
+  # You can add: CV: "assets/CV.pdf" if you upload it
+
+# Analytics etc. (optional)
+# google_analytics: G-XXXXXXX
+
 
 ###############################################
 # --- List of links in the navigation bar --- #
