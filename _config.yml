@@ -46,7 +46,7 @@ header_pages:
 navbar-links:
   Google Scholar: "scholar"          # points to scholar.md page
   LinkedIn: "https://www.linkedin.com/in/amirhosseinghaffari"
-  # You can add: CV: "assets/CV.pdf" if you upload it
+  CV: "assets/CV.pdf"
 
 # Analytics etc. (optional)
 # google_analytics: G-XXXXXXX
