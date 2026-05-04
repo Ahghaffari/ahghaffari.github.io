@@ -1,0 +1,123 @@
+{% comment %}
+  Person JSON-LD + Profile OpenGraph, sourced from _data/cv.yml.
+  Auto-updates whenever the CV data changes. Emitted on the home page only
+  to avoid duplicate Person entities across the site.
+{% endcomment %}
+
+{% if page.url == '/' %}
+  {% assign cv = site.data.cv.cv %}
+  {% assign edu = cv.sections.Education %}
+  {% assign exp = cv.sections.Experience %}
+  {% assign interests = cv.sections['Academic Interests'] %}
+  {% assign skills = cv.sections['Selected Skills'] %}
+
+  {% comment %} Pick the current employer (first Experience entry whose end_date is "Present"). {% endcomment %}
+  {% assign current_employer = '' %}
+  {% for e in exp %}
+    {% if current_employer == '' and e.end_date contains 'Present' %}
+      {% assign current_employer = e.company %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %} Split "City, Country" location. {% endcomment %}
+  {% assign loc_parts = cv.location | split: ',' %}
+  {% assign city = loc_parts[0] | strip %}
+  {% assign country = loc_parts[1] | strip %}
+
+  {% comment %} Build sameAs from socials. {% endcomment %}
+  {% assign sameas = '' | split: ',' %}
+  {% if site.data.socials.scholar_userid %}
+    {% capture l %}https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}{% endcapture %}
+    {% assign sameas = sameas | push: l %}
+  {% endif %}
+  {% if site.data.socials.orcid_id %}
+    {% capture l %}https://orcid.org/{{ site.data.socials.orcid_id }}{% endcapture %}
+    {% assign sameas = sameas | push: l %}
+  {% endif %}
+  {% if site.data.socials.github_username %}
+    {% capture l %}https://github.com/{{ site.data.socials.github_username }}{% endcapture %}
+    {% assign sameas = sameas | push: l %}
+  {% endif %}
+  {% if site.data.socials.linkedin_username %}
+    {% capture l %}https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}{% endcapture %}
+    {% assign sameas = sameas | push: l %}
+  {% endif %}
+  {% if site.data.socials.research_gate_profile %}
+    {% capture l %}https://www.researchgate.net/profile/{{ site.data.socials.research_gate_profile }}{% endcapture %}
+    {% assign sameas = sameas | push: l %}
+  {% endif %}
+
+  {% comment %} Collect knowsAbout from Academic Interests + Selected Skills (names + keywords). {% endcomment %}
+  {% assign knows = '' | split: ',' %}
+  {% for i in interests %}
+    {% assign knows = knows | push: i.name %}
+    {% if i.keywords %}
+      {% for k in i.keywords %}
+        {% assign knows = knows | push: k %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  {% for s in skills %}
+    {% if s.keywords %}
+      {% for k in s.keywords %}
+        {% assign knows = knows | push: k %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %} Collect alumniOf from Education entries. {% endcomment %}
+  {% assign alumni = '' | split: ',' %}
+  {% for e in edu %}
+    {% assign alumni = alumni | push: e.institution %}
+  {% endfor %}
+
+  {% capture site_root %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+  {% capture profile_image %}{{ site_root }}/assets/img/prof_pic.jpg{% endcapture %}
+
+  <!-- Person JSON-LD (auto-generated from _data/cv.yml) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ cv.name | jsonify }},
+      "jobTitle": {{ cv.label | jsonify }},
+      "email": "mailto:{{ cv.email }}",
+      "url": "{{ site_root }}/",
+      "image": "{{ profile_image }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": {{ city | jsonify }},
+        "addressCountry": {{ country | jsonify }}
+      },
+      {% if current_employer != '' %}
+      "worksFor": {
+        "@type": "Organization",
+        "name": {{ current_employer | jsonify }}
+      },
+      {% endif %}
+      {% if alumni.size > 0 %}
+      "alumniOf": [
+        {% for a in alumni %}
+          { "@type": "EducationalOrganization", "name": {{ a | jsonify }} }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      {% endif %}
+      {% if knows.size > 0 %}
+      "knowsAbout": {{ knows | jsonify }},
+      {% endif %}
+      {% if sameas.size > 0 %}
+      "sameAs": {{ sameas | jsonify }},
+      {% endif %}
+      "knowsLanguage": [
+        {% for lang in cv.sections.Languages %}
+          {{ lang.name | jsonify }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  </script>
+
+  <!-- OpenGraph profile extension -->
+  <meta property="og:type" content="profile">
+  <meta property="profile:first_name" content="{{ cv.name | split: ' ' | first }}">
+  <meta property="profile:last_name" content="{{ cv.name | split: ' ' | last }}">
+{% endif %}
