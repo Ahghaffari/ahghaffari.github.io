@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Venue badges for publications, keyed by the `abbr` field in _bibliography/papers.bib.
+# Each venue may define a `url` and/or a `color` (used for the badge background).
+# Currently unused: publication thumbnails/abbr badges are disabled in _config.yml.
+# Example:
+# "CIKM":
+#   url: https://www.cikm.org/
+#   color: "#00529b"
