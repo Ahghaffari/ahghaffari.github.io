@@ -4,10 +4,6 @@ cv:
   email: amirhossein.ghaffari@oulu.fi
   secondary_email: ah.ghaffari94@gmail.com
   location: Oulu, Finland
-  website: https://ahghaffari.github.io/amirhosseinghaffari/
-  orcid: 0009-0006-9264-8681
-  github: Ahghaffari
-  scholar: N6ROMtIAAAAJ
   image: ""
 
   social_networks:
@@ -25,7 +21,7 @@ cv:
         end_date: Present
         score: "GPA 4.4 / 5"
         highlights:
-          - Research on urban well-being, machine learning, graph neural networks, and multi-source urban data.
+          - Research on urban computing, machine learning, graph neural networks, and multi-source urban data.
 
       - institution: Sharif University of Technology
         location: Tehran, Iran
@@ -52,7 +48,7 @@ cv:
         start_date: 2023
         end_date: Present
         summary: >
-          Conducting doctoral research in urban well-being, machine learning,
+          Conducting doctoral research in urban computing, machine learning,
           graph neural networks, multi-source urban data, and data-driven
           analysis of smart-city systems.
 
