@@ -25,7 +25,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a doctoral researcher in Computer Science and Engineering at the [Center for Ubiquitous Computing](https://ubicomp.oulu.fi/), Faculty of Information Technology and Electrical Engineering (ITEE), [University of Oulu](https://www.oulu.fi/), Finland. My work lies at the intersection of urban computing, machine learning, and graph neural networks, with a focus on developing Graph Neural Networks-based methods for city-scale predictions and intelligent decision support. Combining ideas from machine learning, network science, and urban analytics, I aim to model dynamic, data-driven systems that enhance urban well-being and sustainability.
+I am a doctoral researcher in Computer Science and Engineering at the Future Computing Group (FCG) within the [Center for Ubiquitous Computing](https://ubicomp.oulu.fi/), Faculty of Information Technology and Electrical Engineering (ITEE), [University of Oulu](https://www.oulu.fi/), Finland. My work lies at the intersection of urban computing, machine learning, and graph neural networks, with a focus on developing Graph Neural Networks-based methods for city-scale predictions and intelligent decision support. Combining ideas from machine learning, network science, and urban analytics, I aim to model dynamic, data-driven systems that enhance urban well-being and sustainability.
 
 Alongside my doctoral work, I have contributed to projects spanning federated learning, smart city optimization, generative AI, agentic AI and machine learning for environmental and communication systems. My background includes computer vision, signal analysis, and predictive modeling using both deep learning and classical ML approaches.
 
