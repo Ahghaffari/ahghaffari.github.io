@@ -156,6 +156,7 @@ cv:
         summary: Ranked within the top 0.5% among more than 220,000 participants.
 
     Service:
+      - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *CIKM 2026 Resource Track*. <span class='badge bg-secondary'>2026</span>"
       - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *EuroSys 2026 Artifact Evaluation Committee*. <span class='badge bg-secondary'>2026</span>"
       - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *International Conference on Software, Telecommunications and Computer Networks (SoftCOM) 2026*. <span class='badge bg-secondary'>2026</span>"
       - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *International Conference on Web Information Systems Engineering (WISE) 2025*. <span class='badge bg-secondary'>2025</span>"
