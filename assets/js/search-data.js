@@ -72,6 +72,9 @@ ninja.data = [{
           section: "News",},{id: "news-will-present-our-paper-graph-conditioned-mixture-of-graph-neural-network-experts-for-traffic-forecasting-at-the-27th-ieee-international-conference-on-mobile-data-management-mdm-2026-athens-greece-on-29-june-2-july-2026",
           title: 'Will present our paper Graph-Conditioned Mixture of Graph Neural Network Experts for Traffic...',
           description: "",
+          section: "News",},{id: "news-will-present-our-paper-when-we-talk-morse-lightweight-parameter-encoding-for-secure-federated-learning-at-the-the-international-conference-on-availability-reliability-and-security-ares-2026-linköping-sweden-on-24-27-august-2026",
+          title: 'Will present our paper When We Talk Morse: Lightweight Parameter Encoding for Secure...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
