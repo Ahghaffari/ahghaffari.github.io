@@ -62,7 +62,7 @@ cv:
           - Built motion- and human-detection applications for surveillance systems.
           - Developed an algorithm to automatically optimize camera parameters (gain and shutter speed) to ensure high-quality license-plate capture day and night.
           - Implemented a neural-network-based signal-processing tool to measure vehicle weights in a Weigh-In-Motion (WIM) system.
-          - Designed a driver-assistance tool that detects abnormal driving from deep learning, GPS sensor data, and ECU information.
+          - Designed a driver-assistance tool that detects abnormal driving from deep learning and GPS sensor data.
           - Contributed to large-scale deployment of 70+ WIM sites across Iran (on-site installation, debugging, optimization, support).
 
       - company: Institute of Water and Energy, Sharif University of Technology
