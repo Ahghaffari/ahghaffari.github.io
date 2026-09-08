@@ -27,6 +27,8 @@ latest_posts:
 
 I am a doctoral researcher in Computer Science and Engineering at the Future Computing Group (FCG) within the [Center for Ubiquitous Computing](https://ubicomp.oulu.fi/), Faculty of Information Technology and Electrical Engineering (ITEE), [University of Oulu](https://www.oulu.fi/), Finland. My work lies at the intersection of urban computing, machine learning, and graph neural networks, with a focus on developing Graph Neural Networks-based methods for city-scale predictions and intelligent decision support. Combining ideas from machine learning, network science, and urban analytics, I aim to model dynamic, data-driven systems that enhance urban well-being and sustainability.
 
+From September to November 2026, I am a visiting researcher with the Machine Learning for Smart Mobility (MLSM) group at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english/) in Kongens Lyngby, Denmark, hosted by Prof. Francisco Camara Pereira, where I work on spatio-temporal graph neural networks for traffic forecasting and the limitations of message passing over urban road networks.
+
 Alongside my doctoral work, I have contributed to projects spanning federated learning, smart city optimization, generative AI, agentic AI and machine learning for environmental and communication systems. My background includes computer vision, signal analysis, and predictive modeling using both deep learning and classical ML approaches.
 
 I am passionate about turning heterogeneous data, from sensors, networks, and open urban datasets, into actionable insights through scalable, interpretable, and privacy-preserving AI models.
