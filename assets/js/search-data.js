@@ -75,6 +75,9 @@ ninja.data = [{
           section: "News",},{id: "news-will-present-our-paper-when-we-talk-morse-lightweight-parameter-encoding-for-secure-federated-learning-at-the-the-international-conference-on-availability-reliability-and-security-ares-2026-linköping-sweden-on-24-27-august-2026",
           title: 'Will present our paper When We Talk Morse: Lightweight Parameter Encoding for Secure...',
           description: "",
+          section: "News",},{id: "news-starting-a-research-visit-at-the-machine-learning-for-smart-mobility-mlsm-group-technical-university-of-denmark-dtu-kongens-lyngby-denmark-hosted-by-prof-francisco-camara-pereira-from-september-to-november-2026",
+          title: 'Starting a research visit at the Machine Learning for Smart Mobility (MLSM) group,...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
