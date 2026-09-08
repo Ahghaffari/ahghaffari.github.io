@@ -3,12 +3,18 @@ cv:
   label: Doctoral Researcher
   email: amirhossein.ghaffari@oulu.fi
   secondary_email: ah.ghaffari94@gmail.com
+  website: https://ahghaffari.github.io
   location: Oulu, Finland
+  address:
+    city: Oulu
+    region: Finland
   image: ""
 
   social_networks:
     - network: LinkedIn
       username: amirhosseinghaffari
+    - network: GitHub
+      username: ahghaffari
 
   sections:
     Education:
@@ -41,20 +47,45 @@ cv:
         end_date: 2017
         score: "GPA 16.24 / 20"
 
+      - institution: Roshd1 Educational Complex
+        location: Tehran, Iran
+        area: Mathematics and Physics
+        studyType: High School Diploma
+        start_date: 2008
+        end_date: 2012
+        score: "GPA 19.87 / 20"
+
     Experience:
+      - company: Technical University of Denmark (DTU)
+        position: Visiting Researcher
+        location: Kongens Lyngby, Denmark
+        url: https://www.dtu.dk/english/
+        start_date: 2026
+        end_date: 2026
+        summary: >
+          Machine Learning for Smart Mobility (MLSM) group · September – November 2026
+        highlights:
+          - Research visit hosted by **Prof. Francisco Camara Pereira**.
+          - Collaborative research on spatio-temporal graph neural networks for traffic forecasting, with a focus on the limitations of message passing over urban road networks.
+
       - company: University of Oulu
         position: Doctoral Researcher
         location: Oulu, Finland
+        url: https://www.oulu.fi/
         start_date: 2023
         end_date: Present
         summary: >
           Conducting doctoral research in urban computing, machine learning,
           graph neural networks, multi-source urban data, and data-driven
           analysis of smart city systems.
+        highlights:
+          - Designing and evaluating spatio-temporal graph neural network architectures for large-scale urban data, implemented in Python with PyTorch and PyTorch Geometric on GPU computing clusters.
+          - Author and co-author of peer-reviewed publications in international conferences and journals.
 
       - company: Fard Iran Co.
         position: Computer Vision and Deep Learning Researcher
         location: Tehran, Iran
+        url: https://fardiran.com/en/
         start_date: 2019
         end_date: 2023
         highlights:
@@ -68,10 +99,24 @@ cv:
       - company: Institute of Water and Energy, Sharif University of Technology
         position: Deep Learning Researcher
         location: Tehran, Iran
+        url: http://iwe.sharif.edu/
         start_date: 2020
         end_date: 2022
         highlights:
           - Designed and implemented deep-learning and machine-learning algorithms for an air-pollution prediction system.
+
+      - company: Mahan Factory
+        position: Engineering Intern
+        location: Isfahan, Iran
+        start_date: 2016
+        end_date: 2016
+        highlights:
+          - Industrial summer internship completed as part of the B.Sc. program in Electrical Engineering.
+          - Worked with the engineering team on electrical and electronic systems used in the production line, including measurement, testing, and documentation tasks.
+
+    Thesis Projects:
+      - bullet: "<i class='fa-solid fa-scroll text-primary me-2'></i> **M.Sc. Thesis** &mdash; *360-degree Video Transmission over Network using Coded Caching*. Supervisor: Assoc. Prof. Mohammad Sharifkhani, Sharif University of Technology. <span class='badge bg-secondary'>2017&ndash;2019</span>"
+      - bullet: "<i class='fa-solid fa-scroll text-primary me-2'></i> **B.Sc. Thesis** &mdash; *Design and Fabrication of an Active Noise Cancellation System for Environmental Disturbing Sounds*. Supervisor: Prof. Hassan Kaatuzian, Amirkabir University of Technology. <span class='badge bg-secondary'>2016&ndash;2017</span>"
 
     Teaching:
       - company: University of Oulu — Faculty of ITEE
@@ -80,8 +125,8 @@ cv:
         start_date: 2024
         end_date: 2026
         highlights:
-          - "Instructor: Dr. Ekaterina Gilman."
-          - "Spring 2024, 2025, 2026."
+          - "Instructor: Adj. Prof. Ekaterina Gilman."
+          - "Spring 2024, Spring 2025, Spring 2026."
 
       - company: University of Oulu — Faculty of ITEE
         position: Teaching Assistant — Network Analysis and Graph Machine Learning (M.Sc.)
@@ -90,6 +135,7 @@ cv:
         end_date: 2025
         highlights:
           - "Instructor: Prof. Joydeep Chandra."
+          - "Spring 2025."
 
       - company: Sharif University of Technology — Electrical Engineering Dept.
         position: Teaching Assistant — Computer Vision (M.Sc.)
@@ -97,7 +143,8 @@ cv:
         start_date: 2019
         end_date: 2019
         highlights:
-          - "Instructor: Dr. Hoda Mohammadzadeh."
+          - "Instructor: Assoc. Prof. Hoda Mohammadzadeh."
+          - "Spring 2019."
 
       - company: Sharif University of Technology — International Campus
         position: Teaching Assistant — Computer Architecture (B.Sc.)
@@ -105,7 +152,8 @@ cv:
         start_date: 2018
         end_date: 2018
         highlights:
-          - "Instructor: Dr. Hamed Farbeh."
+          - "Instructor: Asst. Prof. Hamed Farbeh."
+          - "Fall 2018."
 
       - company: Sharif University of Technology — Electrical Engineering Dept.
         position: Teaching Assistant — Advanced Computer Architecture (M.Sc.)
@@ -114,12 +162,15 @@ cv:
         end_date: 2018
         highlights:
           - "Instructor: Dr. Mohammadreza Movaheddin."
+          - "Fall 2018."
 
       - company: Roshd1 Educational Complex
         position: Mathematics and Physics Teacher
         location: Tehran, Iran
         start_date: 2012
         end_date: 2015
+        highlights:
+          - Taught mathematics and physics at high-school level.
 
     Honors and Awards:
       - date: 2025
@@ -163,7 +214,8 @@ cv:
       - bullet: "<i class='fa-solid fa-magnifying-glass text-info me-2'></i> **Reviewer**, *IEEE International Conference on Big Data (IEEE BigData) 2024*. <span class='badge bg-secondary'>2024</span>"
 
     Conferences, Workshops and Summer Schools:
-      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE MDM 2026**, Athens, Greece &mdash; First-author oral presenter of an accepted paper. <span class='badge bg-secondary'>Summer 2026</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ARES 2026**, Linköping, Sweden &mdash; co-author and oral presenter of a paper. <span class='badge bg-secondary'>Summer 2026</span>"
+      - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE MDM 2026**, Athens, Greece &mdash; first author and oral presenter of a paper. <span class='badge bg-secondary'>Summer 2026</span>"
       - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **ACM CIKM 2025**, Seoul, South Korea &mdash; student volunteer and first-author presenter of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
       - bullet: "<i class='fa-solid fa-people-group text-warning me-2'></i> **IEEE ICNSC 2025**, Oulu, Finland &mdash; author of a paper. <span class='badge bg-secondary'>Fall 2025</span>"
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **NVIDIA Workshop**, University of Oulu &mdash; Fundamentals of Accelerated Computing with CUDA Python. <span class='badge bg-secondary'>Fall 2024</span>"
@@ -176,6 +228,54 @@ cv:
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **IEC2-2019 Sharif**, Sharif University of Technology, Tehran &mdash; KNIME, Tableau, and Pandas workshops. <span class='badge bg-secondary'>Summer 2019</span>"
       - bullet: "<i class='fa-solid fa-graduation-cap text-info me-2'></i> **Deep Learning Summer School**, University of Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **TensorFlow Workshop**, Sharif University of Technology, Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
+
+    Certifications and Courses:
+      - name: Professional Certifications and Courses
+        issuer: Neo4j GraphAcademy
+        icon: fa-solid fa-certificate text-warning me-2
+        url: https://graphacademy.neo4j.com/u/5f1394a4-1dbb-45b0-a28b-35b759985e00
+      - name: "Knowledge Graphs: Foundations and Applications"
+        issuer: openHPI
+        icon: fa-solid fa-certificate text-warning me-2
+        date: April 2026
+        url: https://drive.google.com/file/d/1KCqVqLT9llWz71WfpVxMOnjdHWKqsLPD/view
+      - name: "Foundation: Introduction to LangGraph (Python)"
+        issuer: LangChain Academy
+        icon: fa-solid fa-certificate text-warning me-2
+        date: December 2025
+        url: https://academy.langchain.com/certificates/os5jif5euk
+      - name: AI Agents Intensive Course
+        issuer: Google
+        icon: fa-solid fa-certificate text-warning me-2
+        date: November 2025
+      - name: Generative AI Intensive Course
+        issuer: Google
+        icon: fa-solid fa-certificate text-warning me-2
+        date: September 2025
+      - name: Fundamentals of Accelerated Computing with CUDA Python
+        issuer: NVIDIA
+        icon: fa-solid fa-certificate text-warning me-2
+        date: October 2024
+        url: https://learn.nvidia.com/certificates?id=4NPy7_vfQa6AsYBZpGqNpw
+      - name: Machine Learning Specialization
+        issuer: Coursera
+        icon: fa-solid fa-certificate text-warning me-2
+        date: October 2022
+        url: https://www.coursera.org/account/accomplishments/specialization/certificate/X39H6FX6NYVG
+      - name: Professional Project-Oriented Course in Backend Development with Django
+        issuer: Quera
+        icon: fa-solid fa-certificate text-warning me-2
+        date: December 2021
+        url: https://quera.org/certificate/dW9TlTmL/
+      - name: Deep Learning Summer School
+        issuer: University of Tehran
+        icon: fa-solid fa-certificate text-warning me-2
+        date: August 2018
+        url: https://drive.google.com/file/d/1S-47ez0fLXyaRweq3JN0TCoDSVwbaauP/view
+      - name: Deep Learning with TensorFlow
+        issuer: Sharif University of Technology — Credential ID AC-97-EE-10001
+        icon: fa-solid fa-certificate text-warning me-2
+        date: July 2018
 
     Academic Interests:
       - name: Urban Computing
@@ -218,6 +318,7 @@ cv:
           - PyTorch
           - PyTorch Geometric
           - Hugging Face
+          - TensorFlow
       - name: Agentic AI & LLMs
         icon: fa-solid fa-robot text-warning me-2
         keywords:
@@ -259,7 +360,7 @@ cv:
         summary: Native
       - name: English
         summary: Full professional proficiency
-      - name: Swedish
-        summary: Beginner
       - name: Finnish
+        summary: Elementary proficiency (A2)
+      - name: Swedish
         summary: Beginner

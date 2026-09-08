@@ -187,6 +187,14 @@ layout: default
                 {%- assign section_icon = 'fa-solid fa-screwdriver-wrench text-success' %}
               {% when 'Selected Skills' -%}
                 {%- assign section_icon = 'fa-solid fa-screwdriver-wrench text-success' %}
+              {% when 'Thesis Projects' -%}
+                {%- assign section_icon = 'fa-solid fa-scroll text-primary' %}
+              {% when 'Certificates' -%}
+                {%- assign section_icon = 'fa-solid fa-certificate text-warning' %}
+              {% when 'Certifications and Courses' -%}
+                {%- assign section_icon = 'fa-solid fa-certificate text-warning' %}
+              {% when 'References' -%}
+                {%- assign section_icon = 'fa-solid fa-address-card text-primary' %}
             {% endcase %}
             <h3 class="card-title font-weight-medium">
               {% if section_icon != '' %}<i class="{{ section_icon }} me-2"></i>{% endif -%}
@@ -214,7 +222,7 @@ layout: default
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
                 {% assign entries = section_entries %}
                 {% include cv/interests.liquid %}
-              {% elsif section_title == 'Certificates' %}
+              {% elsif section_title == 'Certificates' or section_title == 'Certifications and Courses' %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
