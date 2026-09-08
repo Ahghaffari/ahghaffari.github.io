@@ -3,7 +3,6 @@ cv:
   label: Doctoral Researcher
   email: amirhossein.ghaffari@oulu.fi
   secondary_email: ah.ghaffari94@gmail.com
-  website: https://ahghaffari.github.io
   location: Oulu, Finland
   address:
     city: Oulu
@@ -230,7 +229,7 @@ cv:
       - bullet: "<i class='fa-solid fa-screwdriver-wrench text-success me-2'></i> **TensorFlow Workshop**, Sharif University of Technology, Tehran. <span class='badge bg-secondary'>Summer 2018</span>"
 
     Certifications and Courses:
-      - name: Professional Certifications and Courses
+      - name: Neo4j GraphAcademy Professional Certifications and Courses
         issuer: Neo4j GraphAcademy
         icon: fa-solid fa-certificate text-warning me-2
         url: https://graphacademy.neo4j.com/u/5f1394a4-1dbb-45b0-a28b-35b759985e00
@@ -361,6 +360,6 @@ cv:
       - name: English
         summary: Full professional proficiency
       - name: Finnish
-        summary: Elementary proficiency (A2)
+        summary: Beginner
       - name: Swedish
         summary: Beginner
