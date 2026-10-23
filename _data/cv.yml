@@ -81,7 +81,7 @@ cv:
           - Author and co-author of peer-reviewed publications in international conferences and journals.
 
       - company: Fard Iran Co.
-        position: Computer Vision and Deep Learning Researcher
+        position: Machine Learning Engineer
         location: Tehran, Iran
         url: https://fardiran.com/en/
         start_date: 2019
@@ -95,7 +95,7 @@ cv:
           - Contributed to large-scale deployment of 70+ WIM sites across Iran (on-site installation, debugging, optimization, support).
 
       - company: Institute of Water and Energy, Sharif University of Technology
-        position: Deep Learning Researcher
+        position: Research Engineer, Machine Learning
         location: Tehran, Iran
         url: http://iwe.sharif.edu/
         start_date: 2020
