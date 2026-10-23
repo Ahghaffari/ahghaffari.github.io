@@ -29,7 +29,7 @@ I am a doctoral researcher in Computer Science and Engineering at the [Future Co
 
 My PhD focuses on **spatio-temporal graph neural networks (STGNNs)** for urban prediction, combining ideas from machine learning, network science, and urban analytics. A central theme of my work is how raw spatio-temporal data should be mapped into graphs, and how model design can make graph learning more accurate and robust. This line of work includes road-aware graph construction (STRAM, *Neurocomputing*), the open-source STM-Graph framework (CIKM 2025), and mixture-of-experts GNNs for traffic forecasting (IEEE MDM 2026), with further work on graph transformers and spatio-temporal model design in progress.
 
-From September to November 2026, I am a visiting PhD researcher with the [Machine Learning for Smart Mobility (MLSM)](https://mlsm.man.dtu.dk/) group at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english/), hosted by Prof. Francisco Camara Pereira.
+From September to November 2026, I am a visiting doctoral researcher with the [Machine Learning for Smart Mobility (MLSM)](https://mlsm.man.dtu.dk/) group at the [Technical University of Denmark (DTU)](https://www.dtu.dk/english/), hosted by Prof. Francisco Camara Pereira.
 
 Beyond GNNs, I work on **LLMs and agentic AI**, including adapting LLMs to online communities (RedditPersona, CIKM 2026), LLM-powered travel planning from mobility patterns (IEEE BigData 2025), and agentic systems built on knowledge graphs. I have also contributed to research on **federated and privacy-preserving learning**, smart city optimization, and anomaly detection in 5G networks.
 
